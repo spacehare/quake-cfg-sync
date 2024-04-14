@@ -1,0 +1,6 @@
+[folders]
+configs = '../cfg'
+mod_locations = ['i:\Quake\Game\quakespasm-0.95.0_win64\']
+
+[limit]
+'remobilize.cfg' = ['remobilize_test15']
