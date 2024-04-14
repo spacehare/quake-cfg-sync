@@ -1,6 +1,5 @@
 from pathlib import Path
 from tomllib import load
-from glob import glob
 
 settings: dict
 with open('settings.toml', 'rb') as f:
