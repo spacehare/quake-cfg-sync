@@ -1,6 +1,13 @@
 [folders]
+# where is the configs folder?
 configs = '../cfg'
-mod_locations = ['i:\Quake\Game\quakespasm-0.95.0_win64\']
+# where will mods be? 
+mod_locations = [
+	'i:\Quake\Engines\quakespasm-0.95.0_win64\',
+	'i:\Quake\Engines\ironwail',
+]
 
+# whitelist specific .cfg files in specific mod folders
 [limit]
 'remobilize.cfg' = ['remobilize_test15']
+'res.cfg' = ['alkaline', 'ad', 'copper']
