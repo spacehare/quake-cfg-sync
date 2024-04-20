@@ -19,3 +19,5 @@ so for example, if you have `'i:\Quake\Engines\quakespasm-0.95.0_win64\` as a "m
 
 > [!NOTE]
 > see `settings.toml` for an example configuration
+
+may require administrator privileges to run, in order to create the symlinks
