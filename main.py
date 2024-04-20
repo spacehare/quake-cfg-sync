@@ -19,7 +19,7 @@ def create_autoexec_and_copy_cfgs(where: Path):
                 if key not in cfg_file.name or where.name in val:
                     filtered_cfg_files.append(cfg_file)
                     new_file = where / cfg_file.name
-                    new_file.symlink_to(cfg_file)
+                    new_file.symlink_to(cfg_file.absolute())
 
         lines = [f'exec {cfg_file.name}\n' for cfg_file in filtered_cfg_files]
         autoexec.writelines(lines)
